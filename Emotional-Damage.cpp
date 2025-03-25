@@ -26,6 +26,8 @@ int main() {
   if (guess == 8) {
     
     std::cout << "Congrats you won EMOTIONAL DAMAGE!\n";
+    
+    std::cout << "\n" << "Attempts: " << tries << "Emotional Damage: " << emotionaldamage; 
   
   }  else if (tries == 50 || tries > 50){
 
